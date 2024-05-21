@@ -1,0 +1,3 @@
+[opener]
+play = [{ run = 'nvim "$@"', orphan = true, for = "unix" }]
+edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
