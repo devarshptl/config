@@ -1,0 +1,22 @@
+import = [""]
+
+live_config_reload = true
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+size = 13
+
+[window]
+dynamic_padding = true
+option_as_alt = "Both"
+startup_mode = "Maximized"
+
+[cursor]
+style.shape = "Underline"
+
+[keyboard]
+bindings = [{ key = "Slash", mods = "Control", chars = "\u001f" }]
+
+[shell]
+program = "/opt/homebrew/bin/fish"
+args = ["-c", "tmux new-session -A -s alacritty"]
