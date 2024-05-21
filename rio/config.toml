@@ -1,0 +1,32 @@
+theme = "catppuccin-mocha"
+
+option-as-alt = 'both'
+confirm-before-quit = true
+
+[renderer]
+performance = "High"
+
+[keyboard]
+use-kitty-keyboard-protocol = true
+disable-ctlseqs-alt = false
+
+[window]
+opacity = 0.9
+blur = true
+decorations = "Enabled"
+
+[fonts]
+family = "SauceCodePro Nerd Font"
+size = 13
+
+[cursor]
+shape = "underline"
+blinking = true
+
+[editor]
+program = "nvim"
+args = []
+
+[shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login", "--interactive", "-c", "tmux new-session -A -s rio"]
