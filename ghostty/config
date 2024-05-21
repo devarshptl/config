@@ -1,0 +1,36 @@
+# Application
+theme = "Catppuccin Mocha"
+background-opacity = 0.95
+background-blur-radius = 20
+
+# Window 
+window-height = 4000
+window-width = 4000
+window-padding-balance = true
+
+# Font 
+font-family = "PlemolJP Console NF Medium"
+font-size = 14
+
+# Cursor 
+cursor-style = underline
+cursor-style-blink = true
+
+# Miscellaneous
+copy-on-select = true 
+quit-after-last-window-closed = true 
+quick-terminal-position = center
+macos-option-as-alt = true 
+window-colorspace = display-p3
+
+# Shell 
+# command = /opt/homebrew/bin/fish --login --interactive -c "tmux new-session -A -s ghostty"
+# command = /opt/homebrew/bin/fish -l -i -c "zellij attach --create ghostty"
+shell-integration-features = no-cursor
+
+# Keybindings
+keybind = clear 
+keybind = super+q=quit
+keybind = super+c=copy_to_clipboard
+keybind = super+v=paste_from_clipboard
+keybind = super+r=reload_config
