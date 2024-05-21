@@ -1,0 +1,12 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export BUN_INSTALL:/Users/devarshptl/\x2ebun
+SETUVAR EDITOR:nvim
+SETUVAR FZF_COMPLETION_OPTS:\x2d\x2dborder\x20\x2d\x2dinfo\x3dinline
+SETUVAR --export HOMEBREW_NO_ENV_HINTS:true
+SETUVAR --export NVIM_APPNAME:lazyvim
+SETUVAR --export --path PATH:/opt/homebrew/Caskroom/miniforge/base/bin\x1e/opt/homebrew/Caskroom/miniforge/base/condabin\x1e/opt/homebrew/bin\x1e/opt/homebrew/sbin\x1e/Users/devarshptl/\x2ecargo/bin\x1e/Users/devarshptl/\x2envm/versions/node/v24\x2e11\x2e0/bin\x1e/opt/homebrew/opt/mysql\x2dclient\x408\x2e4/bin\x1e/opt/homebrew/opt/libpq/bin\x1e/usr/local/bin\x1e/System/Cryptexes/App/usr/bin\x1e/usr/bin\x1e/bin\x1e/usr/sbin\x1e/sbin\x1e/var/run/com\x2eapple\x2esecurity\x2ecryptexd/codex\x2esystem/bootstrap/usr/local/bin\x1e/var/run/com\x2eapple\x2esecurity\x2ecryptexd/codex\x2esystem/bootstrap/usr/bin\x1e/var/run/com\x2eapple\x2esecurity\x2ecryptexd/codex\x2esystem/bootstrap/usr/appleinternal/bin\x1e/opt/pmk/env/global/bin\x1e/Applications/kitty\x2eapp/Contents/MacOS\x1e/Users/devarshptl/Developer/scratch/cpp/vcpkg
+SETUVAR --export VCPKG_ROOT:/Users/devarshptl/Developer/scratch/cpp/vcpkg
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_user_paths:/Users/devarshptl/\x2ebun/bin\x1e/Users/devarshptl/Developer/scratch/cpp/vcpkg\x1e/opt/homebrew/opt/mysql\x2dclient\x408\x2e4/bin\x1e/opt/homebrew/opt/libpq/bin
