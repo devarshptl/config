@@ -1,0 +1,15 @@
+htop/
+flutter/
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+lazy-lock.json
+tmux/plugins/
+podman-tui/
+containers/
+gh/
