@@ -1,4 +1,4 @@
-import = [""]
+import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 live_config_reload = true
 
@@ -9,6 +9,8 @@ size = 13
 [window]
 dynamic_padding = true
 option_as_alt = "Both"
+opacity = 0.95
+blur = true
 startup_mode = "Maximized"
 
 [cursor]

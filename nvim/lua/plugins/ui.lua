@@ -38,7 +38,9 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     opts = {
-      flavour = "macchiato",
+      flavour = "mocha",
+      transparent_background = true,
+      term_colors = true,
     },
   },
   {
@@ -69,7 +71,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark_dark",
+      colorscheme = "catppuccin",
     },
   },
   -- NeoTree
