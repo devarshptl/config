@@ -25,14 +25,14 @@ local dashboard_custom_header = [[
 
 return {
   -- Dashboard
-  {
-    "nvimdev/dashboard-nvim",
-    opts = {
-      config = {
-        header = vim.split(dashboard_custom_header, "\n"),
-      },
-    },
-  },
+  -- {
+  --   "nvimdev/dashboard-nvim",
+  --   opts = {
+  --     config = {
+  --       header = vim.split(dashboard_custom_header, "\n"),
+  --     },
+  --   },
+  -- },
   -- Colorscheme
   {
     "catppuccin/nvim",

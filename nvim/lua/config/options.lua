@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 vim.o.guifont = "JetBrainsMono_Nerd_Font:h13"
+vim.o.termguicolors = true
 
 -- Neovide
 if vim.g.neovide then
