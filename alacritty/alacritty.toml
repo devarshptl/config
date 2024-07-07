@@ -17,7 +17,10 @@ startup_mode = "Maximized"
 style.shape = "Underline"
 
 [keyboard]
-bindings = [{ key = "Slash", mods = "Control", chars = "\u001f" }]
+bindings = [
+  { key = "Slash", mods = "Control", chars = "\u001f" },
+  { key = "T", mods = "Command", action = "None" },
+]
 
 [shell]
 program = "/opt/homebrew/bin/fish"
