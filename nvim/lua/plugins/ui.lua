@@ -101,9 +101,12 @@ return {
       window = {
         completion = {
           border = "rounded",
+          winblend = 0,
+          winhighlight = "Normal:Normal,FloatBorder:FloatBorder,CursorLine:Visual,Search:None",
         },
         documentation = {
           border = "rounded",
+          winblend = 0,
         },
       },
       view = {

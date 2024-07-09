@@ -4,6 +4,7 @@
 
 vim.o.guifont = "JetBrainsMono_Nerd_Font:h13"
 vim.o.termguicolors = true
+vim.o.completeopt = "menu,menuone,noinsert"
 
 -- Neovide
 if vim.g.neovide then
