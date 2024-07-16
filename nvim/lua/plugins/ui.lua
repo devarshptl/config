@@ -25,14 +25,14 @@ local dashboard_custom_header = [[
 
 return {
   -- Dashboard
-  -- {
-  --   "nvimdev/dashboard-nvim",
-  --   opts = {
-  --     config = {
-  --       header = vim.split(dashboard_custom_header, "\n"),
-  --     },
-  --   },
-  -- },
+  {
+    "nvimdev/dashboard-nvim",
+    opts = {
+      config = {
+        header = vim.split(dashboard_custom_header, "\n"),
+      },
+    },
+  },
   -- Colorscheme
   {
     "catppuccin/nvim",
@@ -41,6 +41,14 @@ return {
       flavour = "mocha",
       transparent_background = true,
       term_colors = true,
+      custom_highlights = function(colors)
+        return {
+          DashboardHeader = { fg = colors.mauve },
+          NeoTreeDimText = { fg = colors.overlay0 },
+          NeoTreeMessage = { fg = colors.overlay0 },
+          NeoTreeDotFile = { fg = colors.overlay0 },
+        }
+      end,
     },
   },
   {
@@ -128,9 +136,8 @@ return {
   {
     "folke/which-key.nvim",
     opts = {
-      window = {
+      win = {
         border = "rounded",
-        margin = { 1, 1, 1, 1 },
       },
     },
   },
