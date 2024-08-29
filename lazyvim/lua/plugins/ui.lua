@@ -97,6 +97,25 @@ return {
     opts = {
       options = {
         diagnostics = "nvim_lsp",
+        indicator = { style = "none" },
+        separator_style = { "", "" },
+        always_show_bufferline = true,
+      },
+    },
+  },
+  -- Lualine
+  {
+    "nvim-lualine/lualine.nvim",
+    opts = {
+      options = {
+        component_separators = "",
+        -- section_separators = { left = "", right = "" },
+        section_separators = { left = "", right = "" },
+      },
+      sections = {
+        lualine_a = {
+          { "mode", icon = "" },
+        },
       },
     },
   },
