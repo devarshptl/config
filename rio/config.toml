@@ -1,0 +1,47 @@
+theme = "catppuccin-mocha"
+
+option-as-alt = 'both'
+confirm-before-quit = true
+
+[renderer]
+performance = "High"
+
+[keyboard]
+use-kitty-keyboard-protocol = true
+disable-ctlseqs-alt = false
+
+[window]
+opacity = 0.9
+blur = true
+
+[fonts]
+family = "SauceCodePro Nerd Font"
+size = 13
+
+[fonts.regular]
+family = "SauceCodePro Nerd Font"
+style = "Regular"
+weight = 500
+
+[fonts.bold]
+family = "SauceCodePro Nerd Font"
+style = "Bold"
+weight = 700
+
+[fonts.italic]
+family = "SauceCodePro Nerd Font"
+style = "Italic"
+weight = 500
+
+[fonts.bold-italic]
+family = "SauceCodePro Nerd Font"
+style = "Bold Italic"
+weight = 700
+
+[cursor]
+shape = "underline"
+blinking = true
+
+[editor]
+program = "nvim"
+args = []
