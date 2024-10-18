@@ -10,3 +10,5 @@ foo.*
 data
 lazy-lock.json
 tmux/plugins/
+podman-tui/
+containers/
