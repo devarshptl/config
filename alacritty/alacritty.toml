@@ -1,10 +1,3 @@
-import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
-
-live_config_reload = true
-
-[font]
-normal.family = "SauceCodePro Nerd Font"
-size = 13
 
 [window]
 dynamic_padding = true
@@ -12,6 +5,15 @@ option_as_alt = "Both"
 opacity = 0.95
 blur = true
 startup_mode = "Maximized"
+
+[font]
+normal = { family = "SauceCodePro Nerd Font", style = "Regular" }
+bold = { style = "SemiBold" }
+bold_italic = { style = "SemiBold Italic" }
+size = 13
+
+[selection]
+save_to_clipboard = true
 
 [cursor]
 style.shape = "Underline"
@@ -21,6 +23,11 @@ bindings = [
   { key = "Slash", mods = "Control", chars = "\u001f" },
   { key = "T", mods = "Command", action = "None" },
 ]
+
+[general]
+
+live_config_reload = true
+import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 # [shell]
 # program = "/opt/homebrew/bin/fish"
