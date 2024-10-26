@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR EDITOR:nvim
 SETUVAR FZF_COMPLETION_OPTS:\x2d\x2dborder\x20\x2d\x2dinfo\x3dinline
+SETUVAR --export HOMEBREW_NO_ENV_HINTS:true
 SETUVAR --export NVIM_APPNAME:lazyvim
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:brblack
