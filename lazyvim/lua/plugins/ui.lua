@@ -82,6 +82,18 @@ return {
       colorscheme = "catppuccin",
     },
   },
+  -- Snacks
+  {
+    "folke/snacks.nvim",
+    opts = {
+      styles = {
+        terminal = {
+          position = "float",
+          border = "rounded",
+        },
+      },
+    },
+  },
   -- NeoTree
   {
     "nvim-neo-tree/neo-tree.nvim",
