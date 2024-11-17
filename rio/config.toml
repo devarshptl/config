@@ -19,18 +19,6 @@ decorations = "Enabled"
 family = "SauceCodePro Nerd Font"
 size = 13
 
-[fonts.regular]
-weight = 500
-
-[fonts.bold]
-weight = 700
-
-[fonts.italic]
-weight = 500
-
-[fonts.bold-italic]
-weight = 700
-
 [cursor]
 shape = "underline"
 blinking = true
@@ -38,3 +26,7 @@ blinking = true
 [editor]
 program = "nvim"
 args = []
+
+[shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login", "--interactive", "-c", "tmux new-session -A -s rio"]
