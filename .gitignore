@@ -12,3 +12,4 @@ lazy-lock.json
 tmux/plugins/
 podman-tui/
 containers/
+gh/
