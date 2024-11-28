@@ -18,4 +18,16 @@ return {
     },
     config = true,
   },
+  {
+    "mistricky/codesnap.nvim",
+    build = "make build_generator",
+    opts = {
+      watermark = "",
+      code_font_family = "SauceCodePro Nerd Font",
+    },
+    keys = {
+      { "<leader>cs", "<cmd>CodeSnap<cr>", mode = "x", desc = "Save selected code snapshot into clipboard" },
+      { "<leader>cS", "<cmd>CodeSnapSave<cr>", mode = "x", desc = "Save selected code snapshot in ~/Pictures" },
+    },
+  },
 }
