@@ -29,12 +29,7 @@ return {
     --   },
     sections = {
       -- these are to remove the defaults
-      lualine_a = {},
-      lualine_b = {},
-      lualine_y = {},
-      lualine_z = {},
-      -- These will be filled later
-      lualine_c = {
+      lualine_a = {
         {
           "mode",
           icon = "",
@@ -61,20 +56,25 @@ return {
               ["r?"] = colors.mauve,
               ["!"] = colors.green,
             }
-            return { fg = mode_color[vim.fn.mode()] }
+            return { fg = mode_color[vim.fn.mode()], bg = "NONE" }
           end,
         },
+      },
+      lualine_b = {
         {
           LazyVim.lualine.pretty_path(),
           cond = conditions.buffer_not_empty,
-          color = { fg = colors.muave, gui = "bold" },
+          color = { fg = colors.muave, gui = "bold", bg = "NONE" },
         },
         {
           -- filesize component
           "filesize",
           cond = conditions.buffer_not_empty,
-          color = { fg = colors.peach },
+          color = { fg = colors.peach, bg = "NONE" },
         },
+      },
+      -- These will be filled later
+      lualine_c = {
         {
           "diagnostics",
           sources = { "nvim_diagnostic" },
@@ -114,22 +114,26 @@ return {
       lualine_x = {
         { "location", color = { fg = colors.sapphire } },
         { "progress", color = { fg = colors.flamingo, gui = "bold" } },
+      },
+      lualine_y = {
         {
           "o:encoding", -- option component same as &encoding in viml
           fmt = string.upper, -- I'm not sure why it's upper case either ;)
           cond = conditions.hide_in_width,
-          color = { fg = colors.green, gui = "bold" },
+          color = { fg = colors.green, gui = "bold", bg = "NONE" },
         },
         {
           "fileformat",
           fmt = string.upper,
           icons_enabled = false, -- I think icons are cool but Eviline doesn't have them. sigh
-          color = { fg = colors.green, gui = "bold" },
+          color = { fg = colors.green, gui = "bold", bg = "NONE" },
         },
+      },
+      lualine_z = {
         {
           "branch",
           icon = "",
-          color = { fg = colors.lavender, gui = "bold" },
+          color = { fg = colors.lavender, gui = "bold", bg = "NONE" },
         },
         {
           "diff",
@@ -141,6 +145,7 @@ return {
             removed = { fg = colors.red },
           },
           cond = conditions.hide_in_width,
+          color = { bg = "NONE" },
         },
       },
     },
