@@ -6,6 +6,20 @@ return {
     opts = {
       servers = {
         denols = {},
+        vtsls = {
+          settings = {
+            javascript = {
+              preferences = {
+                importModuleSpecifier = "non-relative",
+              },
+            },
+            typescript = {
+              preferences = {
+                importModuleSpecifier = "non-relative",
+              },
+            },
+          },
+        },
       },
     },
   },
