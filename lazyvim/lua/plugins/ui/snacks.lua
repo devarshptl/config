@@ -27,11 +27,11 @@ return {
         header = dashboard_custom_header,
       },
     },
-    styles = {
-      terminal = {
-        position = "float",
-        border = "rounded",
-      },
-    },
+    -- styles = {
+    -- terminal = {
+    --   position = "float",
+    --   border = "rounded",
+    -- },
+    -- },
   },
 }
